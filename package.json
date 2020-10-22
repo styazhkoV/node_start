@@ -1,0 +1,19 @@
+{
+  "name": "node-mongo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/styazhkoV/node-mongo-app.git"
+  },
+  "author": "Alexsandr Styazhkov <alexsandr.styazhkov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/styazhkoV/node-mongo-app/issues"
+  },
+  "homepage": "https://github.com/styazhkoV/node-mongo-app#readme"
+}
