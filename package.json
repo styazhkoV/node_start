@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/styazhkoV/node-mongo-app/issues"
   },
-  "homepage": "https://github.com/styazhkoV/node-mongo-app#readme"
+  "homepage": "https://github.com/styazhkoV/node-mongo-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  }
 }
