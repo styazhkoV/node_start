@@ -1,16 +1,17 @@
 {
-  "name": "node-mongo-app",
+  "name": "node-mongoapp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/styazhkoV/node-mongo-app.git"
   },
-  "author": "Alexsandr Styazhkov <alexsandr.styazhkov@gmail.com>",
+  "author": "Alexsand Styazhkov <alexsandr.styazhkov@gamil.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/styazhkoV/node-mongo-app/issues"
@@ -18,7 +19,10 @@
   "homepage": "https://github.com/styazhkoV/node-mongo-app#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.10.9",
+    "express-handlebars": "^5.1.0",
+    "mongous": "^0.2.7"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.6"
   }
 }
