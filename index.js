@@ -1,12 +1,12 @@
 const express = require('express')
 const mongoose = require('mongous')
-const express = require('express-handlebars')
+const exphbs = require('express-handlebars')
 
 
 const PORT = process.env.PORT || 3000
 
 const app = express()// Подключение и настройка 
-const hbs = exphpbs({
+const hbs = exphbs.create({
     defaultLayout:'main',
     extname: 'hbs'
 })
